@@ -1,0 +1,225 @@
+/** css layout **/
+
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+ul, li {
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
+
+.full_wrapper{
+    width: 900px;
+    margin: 0 auto;
+    height: 1100px;
+    background-color: aquamarine;
+}
+.header{
+    width: 100%;
+    height: 150px;
+}
+
+/* header end here*/
+.logo{
+    width: 600px;
+    height: 90px;
+    background-color:dodgerblue;
+    padding-left: 300px;
+    padding-top: 10px;
+   
+}
+
+/* nav menu start here */
+#nav{
+    width: 900px;
+    height: 50px;
+    position: absolute;
+    z-index: 2;
+   
+}
+
+#nav {
+    background-color: deepskyblue;
+}
+
+
+#nav ul li{
+    display:inline-block;
+    position: relative;
+
+   
+}
+#nav ul li li{
+    display:block;
+    
+}
+
+#nav ul li a{
+    color:antiquewhite;
+    background-color:deepskyblue;
+    display: block;
+    width: 100px;
+   padding: 15px 10px;
+    text-transform: uppercase;
+    border-radius: 10px;
+    text-align: center;
+  
+}
+#nav ul li:hover > a {
+    background-color:#525252;
+    color:goldenrod;
+    transition: all 0.2s linear;
+    
+   
+}
+
+#nav  li ul{
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0%;
+}
+#nav li:hover > ul{
+    display: block;
+}
+#nav li li:hover ul{
+   /* left: 100%;*/
+    top: 0%;
+    padding-left: 5px;
+}
+/* nav menu end here */
+
+/*
+.banner{
+    background-image: url(../images/valamar-diamant-hotel.jpg);
+    width: 900px;
+    height: 350px;
+    background-color:skyblue;
+    text-align: center;
+    
+    
+}
+.banner h2{
+    font-size: 50px;
+    font-style: italic;
+    line-height: 150px;
+    color: white;
+    
+}
+   
+*/
+.banner img{
+    width: 900px;
+    height: 350px;  
+}
+.cont1{
+     width: 900px;
+     height: 260px;
+
+}
+.booki{
+    text-align: center;
+    font-weight: bold;
+  
+}
+.cont1 .booking {
+    padding: 20px;
+    width:360px;
+    height: 220px;
+    background-color: deepskyblue;
+    float: left;
+    text-align: center;
+}
+#txt{
+    width: 50px;
+    height: 20px;
+}
+#button{
+   margin-left: 50px;
+    padding: 10px;
+    font-size: 15px;
+    border-radius: 15px;
+    background-color: wheat;
+    color: black;
+    
+}/* booking div en here*/
+.cont1 .welcome{
+    width: 460px;
+    height: 220px;
+    float: right;
+    background-color:deepskyblue ;
+    padding: 20px;
+  
+}
+.cont1 .welcome .h2{
+    font-size: 30px;
+    text-align: center;
+    
+}
+.cont1 .welcome .p{
+    text-align: center;
+    color: black;
+    width: 300px;
+    padding-left: 74px;
+    font-size: 20px;
+}
+/* end of cont1*/
+.cont2{
+     width: 100%;
+     height: 300px;
+    float: right;
+}
+
+.cont2 .left{
+    width: 250px;
+    height: 300px;
+    float: left;
+    background-color: antiquewhite;
+    text-align: center;
+    font-size: 25px;
+    
+}
+.cont2 .left ul li a
+{
+    color: black;
+    font-size: 20px;
+}
+.cont2 .middle{
+    width: 350px;
+    height: 300px;
+    float: left;
+    background-color: wheat;
+    font-size: 25px;
+}
+.cont2 .middle .room{
+    text-align: center;
+}
+.cont2 .middle .img2{
+    padding-top: 20px;
+    width: 350px;
+    height: 200px;
+}
+
+.cont2 .right{
+    width: 300px;
+    height: 300px;
+    float: left;
+    background-color: antiquewhite;
+}
+.cont2 .right .view{
+    text-align: center;
+    font-size: 20px;
+    width: 250px;
+    padding-top: 20px;
+}
+/*end of c\cont2*/
+
+.full_wrapper .ftr{
+     width: 900px;
+    height: 300px;
+    background-color: black;
+}
